@@ -11,9 +11,9 @@ function Project() {
         <div className='bg-[#262626] mt-[4rem] pb-16 font-raleway md:h-screen'>
 
             <div className="py-0 pl-4 md:pl-36 pt-12">
-                <Link to="/projects" className="text-white text-3xl w-[30px]">
+                <Link to="/projects" className="text-white text-3xl w-[30px] h-[30px] flex items-center justify-center">
                     <IoArrowBack />
-                </Link> 
+                </Link>
             </div>
 
             <div className="container mx-auto pt-20">
