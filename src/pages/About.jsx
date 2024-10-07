@@ -9,7 +9,7 @@ import { experiences } from "../data/experience"
 
 function About() {
     return ( 
-        <div className='bg-[#262626] mt-[4rem] pb-16'>
+        <div className='bg-[#262626] mt-[4rem] pb-16 font-raleway'>
             <div className="pt-24 w-2/3 mx-auto">
                 <div>
                     <h1 className="text-left text-white text-4xl">Quem sou eu.</h1>
