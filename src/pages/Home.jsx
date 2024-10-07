@@ -27,7 +27,7 @@ function Home() {
                                 <h2 className='text-4xl md:text-6xl text-white'>I'm Pedro Certo.</h2>
                                 <div>
                                     <p className='text-white text-3xl md:text-4xl'>
-                                        <span className='text-purple-500'>{text}</span> <Cursor/>
+                                        <span className='text-purple-500'>{text}</span> <Cursor cursorColor='#a855f7'/>
                                     </p>
                                 </div>
                             </div>
