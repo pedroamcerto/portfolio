@@ -28,7 +28,7 @@ function Contact() {
   };
 
   return (
-    <div className='bg-[#262626] mt-[4rem] pb-16 font-raleway md:h-screen'>
+    <div className='bg-[#262626] mt-[4rem] pb-16 font-raleway h-screen'>
       <div className="pt-24">
         <h2 className="text-2xl mb-4 text-center text-white">Contato</h2>
         
