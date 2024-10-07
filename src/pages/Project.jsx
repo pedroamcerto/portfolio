@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { projects } from "../data/projects"
+import { IoArrowBack } from "react-icons/io5";
 
 function Project() {
     const {id} =  useParams()
@@ -9,18 +10,20 @@ function Project() {
     return (
         <div className='bg-[#262626] mt-[4rem] pb-16 font-raleway md:h-screen'>
 
-            <div className="py-0 pl-36 pt-12">
-                <Link to="/projects" className="text-white">href="../projects"</Link> {/* Proposital hehe :) */}
+            <div className="py-0 pl-4 md:pl-36 pt-12">
+                <Link to="/projects" className="text-white text-3xl w-[30px]">
+                    <IoArrowBack />
+                </Link> 
             </div>
 
             <div className="container mx-auto pt-20">
                 <h1 className="text-center text-white text-4xl pb-24">{project.name}</h1>
 
                 <div className="flex flex-wrap gap-6">
-                    <div className="w-[47%]">
+                    <div className="w-full p-6 md:w-[47%]">
                         <img src={project.img} alt="Imagem do projeto"/>
                     </div>
-                    <div className="w-[47%]">
+                    <div className="w-full p-6 md:w-[47%]">
                         <div className="">
                             <p className="text-white">
                                 {project.detailed_description}
