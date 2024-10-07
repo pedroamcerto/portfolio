@@ -5,7 +5,7 @@ Este projeto é um portfólio pessoal desenvolvido com **React** e utilizando **
 
 ## Deploy
 
-Para acessar o deploy [clique aqui!](https://portfolio-7d8ymh4s2-pedro-certos-projects.vercel.app)
+Para acessar o deploy [clique aqui!](https://portfolio-rhhherxmp-pedro-certos-projects.vercel.app)
 
 ## Descrição do Projeto
 
